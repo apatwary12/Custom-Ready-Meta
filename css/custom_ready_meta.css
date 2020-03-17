@@ -1,0 +1,273 @@
+.crm_fieldbox img{
+	max-width:30%;
+	height:auto;
+}
+.crm_fieldset h2{
+     background:#358CB5;
+     color:#FFF;
+     width:100%;
+     display:block;
+     text-shadow:none;
+     padding-left:10px !important;
+}
+.crm_label2{
+    margin: 0 0 2px;
+    color: #260A00;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 5px;
+    border-top: dashed 1px #EDEDED;
+    border-bottom: dashed 1px #EDEDED;
+    clear: both;
+}
+fieldset.crm_fieldset{
+     border:solid 2px #2786B2;
+     padding:25px;
+     margin:20px;
+     background:#EDF2F4;
+}
+fieldset.crm_fieldset input[type=text] {
+    width: 70%;
+}
+fieldset.crm_fieldset textarea {
+    width: 70%;
+}
+legend.crm_legend{
+     font-size:1.3em;
+     font-weight:bold;
+     color:#2786B2;
+}
+label.crm_label {
+    margin: 0 0 2px;
+    color: #260A00;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 5px;
+    border-top: dashed 1px #EDEDED;
+    border-bottom: dashed 1px #EDEDED;
+    font-style: 18px;
+    clear: both;
+}
+.crm_fieldbox {
+    clear: both;
+    padding: 10px 10px 30px;
+    border-bottom: 1px solid #2786b2;
+    margin: 0 0 2em;
+}
+.crm_bttn {
+    font-size: 1.1em;
+    margin: 0 0 0 .5em;
+    background: #2786B2 !important;
+    color: #FFF !important;
+    padding: 5px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.clear{
+     width:100%;
+     clear: both;
+}
+.crm_upload_field, .crm_upload_pdf_field {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+form#addtag .crm_upload_field, form#addtag .crm_upload_pdf_field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form#addtag .crm_upload_field .crm_bttn, form#addtag .crm_upload_pdf_field .crm_bttn{
+     margin: 1em 0 0;
+}
+.crm_upload_field iframe, .crm_upload_pdf_field iframe, .crm_upload_video_field iframe {
+    background-color: gray;
+    cursor: pointer;
+    margin: 0 25px 0 0;
+    resize: both;
+    max-width: 50vw;
+}
+.crm_upload_field_iframe_wrapper, .crm_upload_pdf_field_iframe_wrapper, .crm_upload_video_field_iframe_wrapper {
+    cursor: pointer;
+}
+.single_crm_slideshow_image, .single_crm_content_slideshow_image {
+    width: 31%;
+    margin: 2em 1%;
+    display: block;
+    float: left;
+    cursor: all-scroll;
+}
+.single_crm_slideshow_image_wrapper img, .single_crm_content_slideshow_image_wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+.crm_button_container{
+    margin: 2em 0 1em;
+    display: flex;
+    flex-direction: row;
+}
+.crm_content_slideshow_editor_wrapper{
+     display: none;
+}
+.crm_content_slideshow_editor_wrapper.crm_content_slideshow_editor_activated{
+     display: block;
+}
+.crm_slideshow_image_container > .single_crm_slideshow_image:nth-of-type(3n + 4) {
+    clear: both;
+}
+.crm_content_slideshow_image_container > .single_crm_content_slideshow_image:nth-of-type(3n + 4) {
+    clear: both;
+}
+.crm_fieldbox_subsection, .crm_dynamic_nested_fieldbox_subsection {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0px;
+    cursor: all-scroll;
+    padding: 1em;
+}
+.crm_fieldbox.crm_fieldbox_loading{
+     opacity: .4;
+     pointer-events: none;
+}
+
+.crm_dynamic_field_box_container .crm_fieldbox_subsection:nth-child(even) {
+    background-color: lightgray;
+}
+
+.crm_dynamic_field_box_container .crm_fieldbox_subsection:nth-child(odd) {
+    background-color: darkgray;
+}
+.crm_dynamic_nested_field_box_container .crm_dynamic_nested_fieldbox_subsection:nth-child(even) {
+    background-color: lightgray;
+}
+
+.crm_dynamic_nested_field_box_container .crm_dynamic_nested_fieldbox_subsection:nth-child(odd) {
+    background-color: darkgray;
+}
+.crm_formbreak {
+    font-size: 1.2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    background: #C9E3EF !important;
+    color: #000;
+    padding: 5px;
+    font-weight: normal;
+}
+.crm_upload_video_field_video_src {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.crm_upload_video_field_thumbnail{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.crm_upload_video_field_thumbnail_wrapper {
+    max-width: 30%;
+}
+.crm_upload_video_field_thumbnail_wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+.crm_fieldbox .crm_instructions {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0 0 1em;
+    display: block;
+}
+.crm_fieldbox p[contenteditable]{
+     background-color: #fff;
+     font-style: 16px;
+     padding: 15px;
+     border: 1px;
+}
+
+/*Start Display Toggle Styles*/
+.crm_display_toggle, .crm_nested_fieldbox_display_toggle, .crm_subsection_display_toggle{
+    position: absolute;
+    right: 0;
+    padding: .5em;
+    background-color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+.crm_display_toggle span, .crm_nested_fieldbox_display_toggle span, .crm_subsection_display_toggle span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    -webkit-transition: color .1s ease-in 0;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;     
+}
+.crm_display_toggle span:before, .crm_nested_fieldbox_display_toggle span:before, .crm_subsection_display_toggle span:before {
+     content: "\f347";
+}
+/*End Display Toggle Styles*/
+
+
+/*Start Image Map Styles*/
+.crm_image_map_show_wrapper {
+    display: inline-block;
+    clear: both;
+    position: relative;
+    margin: 2em 0 0;
+}
+.crm_image_map_show {
+    display: inline-block;    
+}
+.crm_image_map_show > img {
+     max-width: 100%;
+     width: auto;
+     height: auto;     
+     display: block;
+}
+.crm_image_map_show_points {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     z-index: 10;
+}
+.crm_image_map_add_points_wrapper {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+}
+.crm_imagemap_creator.dragging  .crm_image_map_show_points{
+     opacity: .4;
+}
+.crm_imagemap_creator.dragging  .crm_image_map_add_points_wrapper{
+     z-index: 15;
+}
+.crm_image_map_point_fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.crm_image_map_point_fields > .crm_fieldbox {
+    width: 100%;
+}
+.crm_image_map_point_fields .crm_image_map_change_point {
+    order: 10000000;
+}
+.crm_image_map_point_fields .crm_image_map_change_point_text {
+    order: 10000001;
+}
+/*End Image Map Styles*/
